@@ -1,0 +1,35 @@
+name: jangbogo
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  equatable: ^2.0.5
+  floor: ^1.5.0
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.20.5
+
+dev_dependencies:
+  build_runner: ^2.4.12
+  floor_generator: ^1.5.0
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  riverpod_generator: ^2.4.3
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: pretendard
+      fonts:
+        - asset: assets/fonts/pretendard_regular.otf
